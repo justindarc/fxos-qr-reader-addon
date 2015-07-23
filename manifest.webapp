@@ -1,0 +1,23 @@
+{
+  "name": "QR Reader",
+  "description": "An add-on for Firefox OS for adding QR code reading abilities to the Camera app",
+  "developer": {
+    "name": "Justin D'Arcangelo",
+    "url": "https://github.com/justindarc"
+  },
+  "customizations": [{
+    "filter": "camera.gaiamobile.org",
+    "scripts": [
+      "main.js"
+    ]
+  }],
+  "type": "certified",
+  "role": "addon",
+  "icons": {
+    "84": "/icons/icon-84.png",
+    "126": "/icons/icon-126.png",
+    "142": "/icons/icon-142.png",
+    "189": "/icons/icon-189.png",
+    "284": "/icons/icon-284.png"
+  }
+}
